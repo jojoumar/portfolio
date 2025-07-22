@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="image/logo.png" class="logo">
+        <ul>
+          <li><a href="#home">Home</a> </li>
+          <li><a href="#about">About</a> </li>
+          <li><a href="#services">Services</a> </li>
+          <li><a href="#portfolio">Portfolio</a> </li>
+          <li><a href="#contact">Contact</a> </li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Video Editor</p>
+        <h1>Hi, I am <span>Joannah</span><br> Your Future Editor</h1>
+      </div>
+    </div>
+
+  </div>
+  <!-----------about----------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="image/user.png">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>Good Day, My name is Umar Joannah a video editor with 5 years of experience in cutting, trimming, transitions, typography, color correction and many more.</p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Typography</span><br>Clear and Consise Captioning of Videos</li>
+            <li><span>Colour Grading</span><br>Using Filters and Effects to Set the Tone of a video</li>
+            <li><span>Transitions</span><br>Smooth Changing from One Clip to Another</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2020 - 2025</span><br>Tiktok Content Manager</li>
+            <li><span>2021 - 2022</span><br>Editor for a Self Motivation Youtube Account</li>
+            <li><span>2023 -</span><br>Freelance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-----------services----------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-palette"></i>
+        <h2>Colour Grading</h2>
+        <p> Fine-tuning Brightness, Contrast, Saturation, Shadows, and Highlights to Enhance Visuals, Create Mood, and Maintain Consistency in Different Projects.</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-dice"></i>
+        <h2>Transitions</h2>
+        <p>Maintaining Flow and Enhancing Storytelling by Moving Smoothly from One Scene or Clip to Another with Creative, and Purposeful Transitions./p>
+        <a href="#">Learn More</a>
+      </div>
+      <div>
+        <i class="fa-regular fa-closed-captioning"></i>
+        <h2>Typography</h2>
+        <p>Enhancing Accessibility, Engagement, and Comprehension for Viewers by Creating Engaging, Well-timed, and Visually Appealing Captions.</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-----------portfolio----------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="image/colour correction.png">
+        <div class="layer">
+          <h3>Colour Correction</h3>
+          <p>The Before and After of an Image I Colour Corrected</p>
+          <a href="https://tiktok.com/@byeongify"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="image/transition.png">
+        <div class="layer">
+          <h3>Tranistion</h3>
+          <p>An Engaging transition from one clip to another</p>
+          <a href="https://vm.tiktok.com/ZMBpeLoed/"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="image/captioning.png">
+        <div class="layer">
+          <h3>Captioning</h3>
+          <p>Clear and readable captions</p>
+          <a href="https://tiktok.com/@byeongify/video/7382589562356288774"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+  </div>
+</div>
+
+<!-----------contact----------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+       <p><i class="fa-regular fa-paper-plane"></i>jojoumar0904@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>08103901313</p>
+        <div class="social-icons">
+          <a href="https://tiktok.com/@byeongify?_t=ZM-8tz4YHqXSzu&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://x.com/nicolalvr?t=bezG2xQOLo4TReb7tKXd7w&s=09"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://x.com/nicolalvr?t=bezG2xQOLo4TReb7tKXd7w&s=09"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <textarea name="message" rows="6" placeholder="Your Mssage"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    <div class="copywrite">
+      <p>Thank you <i class="fa-regular fa-star"></i></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
